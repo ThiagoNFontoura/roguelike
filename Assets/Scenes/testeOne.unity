@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControl
   movSpeed: 5
-  rb: {fileID: 0}
+  rb: {fileID: 755463092}
   playerControls:
     m_Name: Player Controls
     m_Type: 0
