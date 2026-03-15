@@ -11130,9 +11130,9 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.004086852, y: 0.04291123}
-  m_Size: {x: 0.70863986, y: 1.2372473}
-  m_Direction: 0
+  m_Offset: {x: -0.0006245949, y: -0.4813285}
+  m_Size: {x: 0.7929493, y: 0.35738268}
+  m_Direction: 1
 --- !u!50 &674927331
 Rigidbody2D:
   serializedVersion: 5
@@ -11178,12 +11178,12 @@ MonoBehaviour:
     m_Name: Player Controls
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: fb9f53cb-063e-4ae7-aee2-c46ceb4cdb68
+    m_Id: a3220da9-579f-4b33-be9f-8cda5c564c70
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 2D Vector
-      m_Id: cff40a55-d258-46b6-8586-06b98dd7345a
+      m_Id: 7b04c1bd-5980-4c58-a25a-4375e5834614
       m_Path: 2DVector
       m_Interactions: 
       m_Processors: 
@@ -11191,7 +11191,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 4
     - m_Name: up
-      m_Id: 5a687aa0-7643-4faa-8e61-c48a82b22311
+      m_Id: e0f5163a-ef05-4315-a05c-89ed20a2d506
       m_Path: <Keyboard>/w
       m_Interactions: 
       m_Processors: 
@@ -11199,7 +11199,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: down
-      m_Id: bc48c1d8-df7a-4a92-9179-308e78b8b6f3
+      m_Id: a12dabf8-47d7-4869-8a19-1bb09aad59a3
       m_Path: <Keyboard>/s
       m_Interactions: 
       m_Processors: 
@@ -11207,7 +11207,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: left
-      m_Id: ab9832be-d4bd-4b22-9e47-6e7b7942999c
+      m_Id: 65b369a1-4d81-4d63-955f-2683e0eb17c8
       m_Path: <Keyboard>/a
       m_Interactions: 
       m_Processors: 
@@ -11215,7 +11215,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: right
-      m_Id: d00bff46-be23-453b-8b7a-4c90fedb81ce
+      m_Id: fd866ab2-54ce-441a-81c2-ec0866ccf69a
       m_Path: <Keyboard>/d
       m_Interactions: 
       m_Processors: 
@@ -11223,6 +11223,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     m_Flags: 0
+  moveDirection: {x: 0, y: 0}
 --- !u!1 &679936694
 GameObject:
   m_ObjectHideFlags: 0
